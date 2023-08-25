@@ -1,0 +1,3594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_1</class>
+ <widget class="QMainWindow" name="window_1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_9">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">#frame{
+background-color: rgb(120, 120, 120);}
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_20">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_19" stretch="1,5">
+         <item>
+          <widget class="QFrame" name="frame_2">
+           <property name="styleSheet">
+            <string notr="true">#frame_2{background-color: rgb(103, 103, 103);}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,2,4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="styleSheet">
+                 <string notr="true">border-image: url(:/icon/img_icon/微气候.jpg);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);
+font: 30 italic 24pt &quot;Bookman Old Style&quot;;
+</string>
+                  </property>
+                  <property name="text">
+                   <string>智慧温室平台</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);
+font: 15pt &quot;Ink Free&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>Smart Agriculture</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_3">
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>368</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout">
+                    <item>
+                     <widget class="QPushButton" name="pushButton_close">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(223, 223, 223, 0);}
+QPushButton::focus{outline: none;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(223, 223, 223, 150);}
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/最小化.png</normaloff>:/icon/img_icon/最小化.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_3">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(223, 223, 223, 0);}
+QPushButton::focus{outline: none;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(223, 223, 223, 150);}</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/关闭.png</normaloff>:/icon/img_icon/关闭.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1,1,0,3">
+                  <item>
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_4" stretch="6,2">
+                    <item>
+                     <widget class="QLabel" name="label_6">
+                      <property name="styleSheet">
+                       <string notr="true">border-image: url(:/icon/img_icon/GPU.png);
+
+</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>28</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <item>
+                     <widget class="QLabel" name="label_4">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>GPU</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_GPU">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <item>
+                     <widget class="QLabel" name="label_5">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>CPU</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_CPU">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_3">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_time">
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 255, 255);
+font: 19pt &quot;Agency FB&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_31" stretch="1,0,4">
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <property name="styleSheet">
+              <string notr="true">#widget{background-color: rgb(103, 103, 103);}
+QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 20px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,1,0,1,0,1,0,1,0,1,0,1,0">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>18</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/设置.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_jichushezhi">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>基础设置</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/农事_农事.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_wenshicanshu">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>温室参数</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/葡萄.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_putaofenlei">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>葡萄分类</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_5">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/实时检测.jpg);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_shishijiance">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>实时检测</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/文件夹.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_duquwenjian">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>读取文件</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_7">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="1,3">
+                <item>
+                 <widget class="QLabel" name="label_12">
+                  <property name="styleSheet">
+                   <string notr="true">border-image: url(:/icon/img_icon/简介.png);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_pintaijianjie">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="text">
+                   <string>平台简介</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="Line" name="line">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QStackedWidget" name="stackedWidget">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(120, 120, 120);</string>
+             </property>
+             <property name="currentIndex">
+              <number>5</number>
+             </property>
+             <widget class="QWidget" name="page">
+              <layout class="QHBoxLayout" name="horizontalLayout_41">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_8" stretch="1,0,1,0,1">
+                 <item>
+                  <widget class="QGroupBox" name="groupBox">
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+
+
+</string>
+                   </property>
+                   <property name="title">
+                    <string>常规设置</string>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_2">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_13">
+                      <property name="text">
+                       <string>中文标题</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit">
+                      <property name="text">
+                       <string>智慧温室平台</string>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <spacer name="horizontalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>126</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_15">
+                      <property name="text">
+                       <string>英文标题</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QLineEdit" name="lineEdit_2">
+                      <property name="text">
+                       <string>Smart Agriculture</string>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_14">
+                      <property name="text">
+                       <string>版权所有</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLineEdit" name="lineEdit_3">
+                      <property name="text">
+                       <string>NJAU 微气候</string>
+                      </property>
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>126</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QLabel" name="label_16">
+                      <property name="text">
+                       <string>软件图标</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="4">
+                     <widget class="QLineEdit" name="lineEdit_4">
+                      <property name="readOnly">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_9">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>17</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_2">
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="title">
+                    <string>数据库设置</string>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_17">
+                      <property name="text">
+                       <string>连接方式</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QComboBox" name="comboBox">
+                      <item>
+                       <property name="text">
+                        <string>直连数据库</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>间接连接</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>126</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_18">
+                      <property name="text">
+                       <string>主机类型</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QLineEdit" name="lineEdit_5"/>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_20">
+                      <property name="text">
+                       <string>数据库名</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLineEdit" name="lineEdit_9"/>
+                    </item>
+                    <item row="1" column="2">
+                     <spacer name="horizontalSpacer_7">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>126</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QLabel" name="label_21">
+                      <property name="text">
+                       <string>主机名称</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="4">
+                     <widget class="QLineEdit" name="lineEdit_6">
+                      <property name="text">
+                       <string>sx</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_19">
+                      <property name="text">
+                       <string>用户名称</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="lineEdit_8"/>
+                    </item>
+                    <item row="2" column="2">
+                     <spacer name="horizontalSpacer_8">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>126</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="2" column="3">
+                     <widget class="QLabel" name="label_22">
+                      <property name="text">
+                       <string>用户密码</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="4">
+                     <widget class="QLineEdit" name="lineEdit_7"/>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_10">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>13</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_3">
+                   <property name="styleSheet">
+                    <string notr="true">#groupBox_3{color: rgb(255, 255, 255);
+	marrign-bottom:5px
+}
+
+QLabel{
+	color: rgb(255, 255, 255);
+	
+	font: 12pt &quot;仿宋&quot;;
+}
+QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 17px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+</string>
+                   </property>
+                   <property name="title">
+                    <string>传感器设置</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_7">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_12">
+                        <item>
+                         <widget class="QLabel" name="label_23">
+                          <property name="text">
+                           <string> PH 传感器</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_phchuan">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="img_ui.qrc">
+                            <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                            <normalon>:/icon/img_icon/开关 开.png</normalon>
+                            <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                            <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                            <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                            <activeon>:/icon/img_icon/开关 开.png</activeon>
+                            <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                            <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>31</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_9">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_15">
+                        <item>
+                         <widget class="QLabel" name="label_26">
+                          <property name="text">
+                           <string>湿度传感器</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_phchuan_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="img_ui.qrc">
+                            <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                            <normalon>:/icon/img_icon/开关 开.png</normalon>
+                            <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                            <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                            <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                            <activeon>:/icon/img_icon/开关 开.png</activeon>
+                            <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                            <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>31</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_10">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_18">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_13">
+                        <item>
+                         <widget class="QLabel" name="label_24">
+                          <property name="text">
+                           <string>温度传感器</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_phchuan_3">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="img_ui.qrc">
+                            <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                            <normalon>:/icon/img_icon/开关 开.png</normalon>
+                            <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                            <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                            <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                            <activeon>:/icon/img_icon/开关 开.png</activeon>
+                            <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                            <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>31</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_11">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_16">
+                        <item>
+                         <widget class="QLabel" name="label_27">
+                          <property name="text">
+                           <string>CO2传感器 </string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_phchuan_4">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="img_ui.qrc">
+                            <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                            <normalon>:/icon/img_icon/开关 开.png</normalon>
+                            <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                            <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                            <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                            <activeon>:/icon/img_icon/开关 开.png</activeon>
+                            <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                            <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>31</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_12">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_19">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_14">
+                        <item>
+                         <widget class="QLabel" name="label_25">
+                          <property name="text">
+                           <string>光照传感器</string>
+                          </property>
+                          <property name="alignment">
+                           <set>Qt::AlignCenter</set>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_phchuan_5">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="img_ui.qrc">
+                            <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                            <normalon>:/icon/img_icon/开关 开.png</normalon>
+                            <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                            <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                            <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                            <activeon>:/icon/img_icon/开关 开.png</activeon>
+                            <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                            <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>31</width>
+                            <height>23</height>
+                           </size>
+                          </property>
+                          <property name="checkable">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <spacer name="horizontalSpacer_13">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>40</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_2">
+              <layout class="QVBoxLayout" name="verticalLayout_21" stretch="1,2,1">
+               <item>
+                <widget class="QGroupBox" name="groupBox_4">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_4{
+	
+		color: rgb(255, 255, 255);
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>功能简介</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_10">
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;通过传感器获得温室参数，可视化温室状态，便  于管理者实时管理温室设施&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_5">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_5{
+	color: rgb(255, 255, 255);
+}
+QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 14px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+
+QLabel{
+		font-size: 18px;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-weight: bold;
+ 		border-radius:9px;
+		background:rgba(66, 195, 255, 0);
+color: rgb(218, 218, 218);
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>功能设置</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_3" columnstretch="1,2,1,2,1">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <spacer name="horizontalSpacer_14">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="0" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_20">
+                    <item>
+                     <widget class="QLabel" name="label_28">
+                      <property name="text">
+                       <string>温度</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_11">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="0" column="2">
+                   <spacer name="horizontalSpacer_18">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>70</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="0" column="3">
+                   <layout class="QHBoxLayout" name="horizontalLayout_23">
+                    <item>
+                     <widget class="QLabel" name="label_33">
+                      <property name="text">
+                       <string>湿度</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_10">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="0" column="4">
+                   <spacer name="horizontalSpacer_22">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="1" column="0">
+                   <spacer name="horizontalSpacer_15">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="1" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_21">
+                    <item>
+                     <widget class="QLabel" name="label_29">
+                      <property name="text">
+                       <string>PH</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_7">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="1" column="2">
+                   <spacer name="horizontalSpacer_17">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>70</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="1" column="3">
+                   <layout class="QHBoxLayout" name="horizontalLayout_24">
+                    <item>
+                     <widget class="QLabel" name="label_32">
+                      <property name="text">
+                       <string>气象</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_6">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="1" column="4">
+                   <spacer name="horizontalSpacer_20">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="2" column="0">
+                   <spacer name="horizontalSpacer_16">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="2" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_22">
+                    <item>
+                     <widget class="QLabel" name="label_30">
+                      <property name="text">
+                       <string>光照</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_8">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="2" column="2">
+                   <spacer name="horizontalSpacer_19">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>70</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item row="2" column="3">
+                   <layout class="QHBoxLayout" name="horizontalLayout_25">
+                    <item>
+                     <widget class="QLabel" name="label_31">
+                      <property name="text">
+                       <string>CO2</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_phchuan_9">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>
+                        <disabledoff>:/icon/img_icon/开关 关.png</disabledoff>
+                        <disabledon>:/icon/img_icon/开关 开.png</disabledon>
+                        <activeoff>:/icon/img_icon/开关 关.png</activeoff>
+                        <activeon>:/icon/img_icon/开关 开.png</activeon>
+                        <selectedoff>:/icon/img_icon/开关 关.png</selectedoff>
+                        <selectedon>:/icon/img_icon/开关 开.png</selectedon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>43</width>
+                        <height>34</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="2" column="4">
+                   <spacer name="horizontalSpacer_21">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>71</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_27" stretch="4,1">
+                 <item>
+                  <spacer name="horizontalSpacer_23">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_wenshigo">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 20px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>GO</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_3">
+              <layout class="QVBoxLayout" name="verticalLayout_13" stretch="2,0,2,0,1,0">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QGroupBox" name="groupBox_6">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="title">
+                  <string>功能简介</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser_2">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;基于卷积神经网络对11种葡萄进行分类，能够对图片、视频、摄像头的画面中的葡萄进行分类，并采用热力图分析特征来源，以此Machine Teaching&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_11">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>13</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_7">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_7{color: rgb(255, 255, 255);}
+QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 14px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+QLabel{
+		font-size: 18px;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-weight: bold;
+ 		border-radius:9px;
+		background:rgba(66, 195, 255, 0);
+color: rgb(218, 218, 218);
+}
+</string>
+                 </property>
+                 <property name="title">
+                  <string>常规设置</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_12">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_28" stretch="0,1,0,0,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_29">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_34">
+                      <property name="text">
+                       <string>本地摄像头</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_32">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_33">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_24">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_35">
+                      <property name="text">
+                       <string>网络摄像头</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_33">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_24">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_25">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_29" stretch="0,1,0,0,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_30">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_36">
+                      <property name="text">
+                       <string>图片检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_34">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_34">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_26">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_37">
+                      <property name="text">
+                       <string>摄像头检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_35">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_35">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_28">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_30" stretch="0,1,0,0,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_31">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_38">
+                      <property name="text">
+                       <string>视频检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_36">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_36">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_27">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_44">
+                      <property name="text">
+                       <string>高帧率</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_37">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_37">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>45</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_55">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_12">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>13</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_32" stretch="0,1">
+                 <item>
+                  <spacer name="horizontalSpacer_38">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>388</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_25">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 20px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}</string>
+                   </property>
+                   <property name="text">
+                    <string>GO</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_13">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>13</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_4">
+              <layout class="QVBoxLayout" name="verticalLayout_16" stretch="2,1,7,1,4,0">
+               <item>
+                <widget class="QGroupBox" name="groupBox_8">
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="title">
+                  <string>功能简介</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser_3">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;基于YOLO对葡萄进行实时检测，标出图像中的目标物体，达到准确采摘葡萄，过滤坏葡萄&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_14">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_9">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_9{color: rgb(255, 255, 255);}
+QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 14px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}
+QLabel{
+		font-size: 18px;
+	font-family: &quot;Microsoft YaHei&quot;;
+	font-weight: bold;
+ 		border-radius:9px;
+		background:rgba(66, 195, 255, 0);
+color: rgb(218, 218, 218);
+}
+</string>
+                 </property>
+                 <property name="title">
+                  <string>常规设置</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_15">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_33" stretch="0,1,0,1,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_39">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_39">
+                      <property name="text">
+                       <string>本地摄像头</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_40">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_26">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_41">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_40">
+                      <property name="text">
+                       <string>网络摄像头</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_42">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_27">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_43">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_42" stretch="0,1,0,1,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_56">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_45">
+                      <property name="text">
+                       <string>图片检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_57">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_38">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_58">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_46">
+                      <property name="text">
+                       <string>摄像头检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_59">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_39">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_60">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_43" stretch="0,1,0,1,0,1,0,1,0">
+                    <item>
+                     <spacer name="horizontalSpacer_61">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>28</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_47">
+                      <property name="text">
+                       <string>视频检测</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_62">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_40">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_63">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_48">
+                      <property name="text">
+                       <string>高帧率</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_64">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>13</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_41">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="img_ui.qrc">
+                        <normaloff>:/icon/img_icon/开关 关.png</normaloff>
+                        <normalon>:/icon/img_icon/开关 开.png</normalon>:/icon/img_icon/开关 关.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_65">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_16">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_37" stretch="3,1">
+                 <item>
+                  <spacer name="horizontalSpacer_53">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>388</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_31">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 20px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}</string>
+                   </property>
+                   <property name="text">
+                    <string>GO</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_15">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>13</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_5">
+              <layout class="QVBoxLayout" name="verticalLayout_17" stretch="0,3,3,3,0">
+               <item>
+                <spacer name="verticalSpacer_18">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_10">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_10{
+	
+	color: rgb(255, 255, 255);
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>功能简介</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_26">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser_4">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;读取csv、excel文件，可视化其中的类别、预测结果等信息数据，并作出修改，导出文件&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_17">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>132</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_38" stretch="3,1">
+                 <item>
+                  <spacer name="horizontalSpacer_54">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>208</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_32">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{font-family: &quot;Microsoft YaHei&quot;;
+font-size: 20px;
+font-weight: bold;
+color:white;
+text-align: center center;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-style: solid;
+border-width: 0px;
+border-color: rgba(255, 255, 255, 255);
+border-radius: 3px;
+background-color: rgba(200, 200, 200,0);}
+
+QPushButton:focus{outline: none;}
+
+QPushButton::pressed{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+
+QPushButton::disabled{font-family: &quot;Microsoft YaHei&quot;;
+                     font-size: 14px;
+                     font-weight: bold;
+                     color:rgb(200,200,200);
+                     text-align: center center;
+                     padding-left: 5px;
+                     padding-right: 5px;
+                     padding-top: 4px;
+                     padding-bottom: 4px;
+                     border-style: solid;
+                     border-width: 0px;
+                     border-color: rgba(255, 255, 255, 255);
+                     border-radius: 3px;
+                     background-color:  #bf513b;}
+QPushButton::hover {
+border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+background-color: rgba(48,148,243,80);}</string>
+                   </property>
+                   <property name="text">
+                    <string>GO</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_19">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>13</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_6">
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <item>
+                <spacer name="verticalSpacer_21">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>1</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_11">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_11{
+	
+	color: rgb(255, 255, 255);
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>功能简介</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_39">
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser_5">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;该平台通过传感器、摄像头实时检测温室信息，将检测数据、监测画面上传数据库，管理员通过自动化分析数据，来完成对温室的控制&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;对数据的分析基于深度学习的图像处理以及目标检测&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_20">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>6</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QGroupBox" name="groupBox_12">
+                 <property name="styleSheet">
+                  <string notr="true">#groupBox_12{
+	
+	color: rgb(255, 255, 255);
+}</string>
+                 </property>
+                 <property name="title">
+                  <string>联系我们</string>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_40">
+                  <item>
+                   <widget class="QTextBrowser" name="textBrowser_6">
+                    <property name="styleSheet">
+                     <string notr="true">border-style: solid;
+border-width: 0px;
+border-radius: 0px;
+color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="html">
+                     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;联系电话：19825038375&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;QQ：2151448264&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;联系地址：南京农业大学人工智能学院微气候工作室&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_22">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>6</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img_ui.qrc"/>
+ </resources>
+ <connections/>
+</ui>

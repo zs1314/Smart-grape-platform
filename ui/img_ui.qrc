@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>img_icon/自然.jpg</file>
+    <file>img_icon/checkbox-checked.png</file>
+    <file>img_icon/checkbox-unchecked.png</file>
+    <file>img_icon/视频.png</file>
+    <file>img_icon/button-off.png</file>
+    <file>img_icon/button-on.png</file>
+    <file>img_icon/返回_putao.png</file>
+    <file>img_icon/返回.png</file>
+    <file>img_icon/开关 开.png</file>
+    <file>img_icon/开关 关.png</file>
+    <file>img_icon/简介.png</file>
+    <file>img_icon/文件夹.png</file>
+    <file>img_icon/Main_L2_顶板压力.png</file>
+    <file>img_icon/葡萄.png</file>
+    <file>img_icon/农事_农事.png</file>
+    <file>img_icon/GPU.png</file>
+    <file>img_icon/设置.png</file>
+    <file>img_icon/温室、大棚.png</file>
+    <file>img_icon/关闭.png</file>
+    <file>img_icon/最大化.png</file>
+    <file>img_icon/最小化.png</file>
+    <file>img_icon/preview.jpg</file>
+    <file>img_icon/摄像头关.png</file>
+    <file>img_icon/打开.png</file>
+    <file>img_icon/日落背景.jpg</file>
+    <file>img_icon/森林 (2).jpg</file>
+    <file>img_icon/浅色.jpg</file>
+    <file>img_icon/灰色背景.jpg</file>
+    <file>img_icon/木板灰.jpg</file>
+    <file>img_icon/森林.jpg</file>
+    <file>img_icon/文件jpg.jpg</file>
+    <file>img_icon/实时检测.jpg</file>
+    <file>img_icon/葡萄.jpg</file>
+    <file>img_icon/温室.jpg</file>
+    <file>img_icon/微气候.jpg</file>
+  </qresource>
+</RCC>
